@@ -1,0 +1,647 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+.cistac {
+	clear:both;
+}
+
+/*Pocetna */
+
+
+header {
+	width: 100%;
+    height: 700px;
+	background-image: url(../images/pozadina.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+	display:flex;
+	
+	
+}
+
+header h1 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+	font-size:130px;
+	font-family: 'Oswald', sans-serif;
+	padding: 10px; 
+	text-shadow: 0px 0px 20px #000, 0px 0px 20px #000, 0px 0px 20px #000;
+	animation-name: slideInl;
+	animation-duration: 2s;
+	margin-top: 150px;
+}
+
+
+#zaglavlje
+{
+    width: 100%;
+    height: 65px;
+    background-color: rgba(0,0,0,0.8);
+    position: fixed;
+    top: 0px;
+    z-index: 3;
+}
+
+#logo
+{
+    float: left;
+    margin-top: 5px;
+}
+
+#logo img
+{
+    transition: 0.5s;
+}
+
+#logo img:hover
+{
+    box-shadow: 0px 0px 41px 3px rgba(0,0,0,1);
+    background-color: rgba(0,0,0,0.4);
+}
+
+
+.okvir
+{
+    width: 80%;
+    margin: 0 auto;	
+}
+
+
+ul 
+{
+	list-style-type: none;
+}
+
+a 
+{
+	text-decoration: none;
+}
+
+nav
+{
+    float: right;
+}
+
+nav ul
+{
+    margin-top: 20px;
+}
+
+nav ul li
+{
+    display: inline;
+    margin-left: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 12pt;
+    text-shadow: 2px 2px 8px #000;
+}
+
+nav ul li a
+{
+    color: rgb(255, 255, 255); 
+    transition: 0.5s;
+}
+
+nav ul li a:hover
+{
+    color: rgb(209, 166, 209);
+}
+
+nav .aktivanLink
+{
+    border-top: 4px solid #D1A6D1;
+    margin-top: 0px;
+    padding-top: 16px;
+}
+
+#baner-karte 
+{
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/pozadinakarte.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+	background-position: center;
+    background-attachment: fixed;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+#glavni-sadrzaj
+{
+    width: 100%;
+    height: auto;
+    background-color: rgb(88, 24, 69);
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+#glavni-sadrzaj h2
+{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Oswald', sans-serif;
+    margin-top: 50px;
+    font-size: 22pt;
+    text-shadow: 2px 2px 8px #000;
+}
+
+#sadrzaj1
+{
+    width: 100%;
+}
+
+#sadrzaj1blok
+{
+    width: 100%;
+    height: 350px;
+    border-left: 8px solid #D1A6D1;
+    border-right: 8px solid #D1A6D1;
+    border-radius: 3%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+#text  {
+	
+	
+	float:left;
+	width: 30%;
+	margin-left: 20px;
+	font-size:18px;
+	margin-top:20px;
+	font-family: 'Oswald', sans-serif;
+	color: rgb(255, 255, 255);
+}
+
+
+	
+
+
+#vertikalna-linija
+{
+    width: 3px; 
+    background-color: rgb(209, 166, 209); 
+    height: 310px;
+    float: left;
+    border-radius: 50%;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+#sadrzaj-slika
+{
+    float: left;
+    margin-left: 20px;
+    margin-top: 12px;
+    
+}
+
+
+
+
+#sadrzaj2
+{
+    width: 100%;
+}
+
+#izvodjaci {
+	width: 100%;
+	margin-top: 50px;
+}
+
+.izvodjac {
+	float: left;
+	width:28%;	
+}
+
+.p{
+	margin-left: 4%;
+	margin-right: 4%;
+	float: left;
+}
+
+.izvodjac img{
+	width:100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+#sadrzaj-bi {
+	
+	width: 100%;
+	float:left;
+	margin-bottom: 30px;
+}
+
+.biografija {
+	float: left;
+	width:28%;
+	
+}
+
+.biografija h3, h4 {
+	text-align:center;
+	font-family: 'Oswald', sans-serif;
+	color: rgb(255, 255, 255);
+}
+.biografija ul li {
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+}
+
+.biografija ul li a:hover
+{
+    color: rgb(88, 24, 69);
+}
+
+.biografija p{
+	color: rgb(17, 17, 17);
+	font-family: 'Oswald', sans-serif;
+}
+
+
+
+
+
+
+
+
+span
+{
+    color: rgb(0, 119, 110);
+}
+
+footer
+{
+    width: 100%;
+    height: 100px;
+	background-color: rgb(17, 17, 17);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#sitemap
+{
+    width: 100px;
+    height: 50px;
+}
+
+#sitemap a
+{
+    color: rgb(209, 166, 209);
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;  
+    transition: 0.5s;
+}
+
+#sitemap a:hover
+{
+    color: rgb(255, 255, 255);
+}
+
+#copyright
+{
+    width: 25%;
+    height: 50px;
+    text-align: center;
+}
+
+#copyright p
+{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: rgb(209, 166, 209);
+   font-family: 'Oswald', sans-serif;
+}
+
+#rss a i {
+	font-size: 24px;
+	vertical-align: middle;
+}
+
+#rss a{
+	color: rgb(209, 166, 209);
+}
+
+#rss a:hover {
+	color: rgb(255, 255, 255);
+}
+
+#socijalne-mreze {
+  text-align: center;
+  margin-top: 10px; 
+}
+
+.ikonice a {
+  display: inline-block;
+  margin: 0 10px; 
+  color: rgb(209, 166, 209);
+}
+
+.ikonice a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.ikonice a i {
+  font-size: 24px; 
+  vertical-align: middle;
+}
+
+/* KARTE FORMA*/
+
+form {
+  float: left;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+
+label {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+button[type="submit"] {
+  background-color: rgb(76, 175, 80);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+.blok {
+  background-color: rgb(242, 242, 242);
+  width: 100%;
+  height: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.blok h1, h3, h4, h5 {
+	text-align:center;
+	color: rgb(255, 255, 255);
+}
+
+.blok hr {
+	width: 40%;
+	margin-right: 30%;
+	margin-left: 30%;
+}
+	
+	
+
+.karte {
+  width: 30%;
+  float: left;
+  margin-right: 20px;
+  margin-left: 50px;
+  
+}
+	
+.blok-forma {
+  
+  width: 21%;
+  float:left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+}
+
+#forma {
+  max-width: 500px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  background-color: rgb(249, 249, 249);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+input, select {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(76, 175, 80);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(62, 142, 65);
+}
+
+
+/* O MENI STRANICA */
+
+#omeni-zaglavlje, #galerija-zaglavlje
+{
+    width: 100%;
+    height: 450px;
+    background-color: rgb(209, 166, 209) ; 
+    position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#omeni-zaglavlje h1
+{
+   font-family: 'Oswald', sans-serif;
+    color: rgb(255, 255, 255);
+    top:45%;
+    font-size: 28pt;
+    text-shadow: 2px 2px 8px #000;
+	text-align: center;
+	
+	
+}
+
+#omeni-zaglavlje hr
+{
+    width: 30%;
+    height: 1%;
+    position: absolute;
+    top: 62%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 8px #000;
+	margin-left: 25%;
+}
+
+.omeni {
+	width:45%;
+	height: auto;
+	float:left;
+	margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: rgb(255, 255, 255);
+    font-family: 'Oswald', sans-serif;
+    padding: 20px;           
+	
+}
+
+.omeni img{ 
+	padding:0px;
+	margin:0px;
+	animation-name: fade;
+	animation-duration: 2s;
+}
+.omeni ul
+{
+    list-style: none;
+    margin-left: 20px;
+}
+
+.omeni ul li::before {
+    content: "\2022";
+    color: rgb(209, 166, 209);
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+    margin-bottom: 15px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+}
+	
+
+/* GALERIJA */
+
+#galerija-zaglavlje h1
+{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(255, 255, 255);
+    top:45%;
+    font-size: 28pt;
+    text-shadow: 2px 2px 8px #000;
+	text-align: center;
+}
+
+#galerija-zaglavlje hr
+{
+    width: 18%;
+    height: 1%;
+    position: absolute;
+    top: 62%;
+    margin-left: 31%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 8px #000;
+	
+}
+
+#galerija
+{
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+}
+
+.koloneslika
+{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.gornjipading
+{
+    padding-top: 20px;
+}
+
+.koloneslika img
+{
+    margin-bottom: 35px;
+    box-shadow: 0px 0px 17px 2px rgba(0,0,0,0.4);
+    transition: 1s;
+}
+
+.koloneslika img:hover
+{
+    opacity: 1;
+    box-shadow: 0px 0px 27px 6px #D1A6D1;
+    transform: scale(1.1, 1.1);
+}
+
+.uspravneslike
+{
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* ANIMACIJA */
+
+@keyframes slideInl {
+	from{left: -100%;}
+	to{right: 0px;}
+} 
+
+@keyframes slideInr {
+	from{right: -100%;}
+	to{left: 0px;}
+}
+
+@keyframes fade{
+	0% {opacity: 0;}
+	100% {opacity:1;}
+}	
